@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Roboto:wght900&display=swap');
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url(./images/pattern-background-desktop.svg);
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #25316D;
+    padding-top: 5%;
+}
+p{
+    font-family: 'Poppins',sans-serif;
+    padding-inline: 5%;
+    font-weight: lighter;
+    font-size: 0.9rem;
+    color: #B1B2FF;
+    padding-bottom: 4%;
+}
+a{
+    color: #6F38C5;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 650;
+    text-decoration: none;
+}
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #ffffff;
+    width: 350px;
+    height: 500px;
+    border-radius: 15px;
+}
+.cardheader img{
+    border-radius: 15px 15px 0 0;
+    width: 350px;
+}
+
+.plan{
+    text-align: left;
+    display: flex;
+    padding-inline: 5%;
+}
+.music{
+    width: 80%;
+}
+.price{
+    text-align: left;
+     margin-top: -19px;
+    padding-left: 20%;
+}
+.Annual{
+    margin-right: 99px;
+    color: #25316D;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+
+}
+.payment{
+    width: 80%;
+    height: 35px;
+    border-radius: 8px;
+    border: #6F38C5;
+    background-color: #3120E0;
+    color: #ffffff;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+    transition: all 0.5s;
+}
+.cancel{
+    width: 80%;
+    height: 35px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    border: none;
+    color: #25316D;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.attribution{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+.names{
+    font-size: 1rem;
+    white-space: nowrap;
+    font-family: 'Courier New', Courier, monospace;
+}
+.attribution span{
+    white-space: nowrap;
+}
